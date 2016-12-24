@@ -12,6 +12,6 @@ setup(name='gofetch',
     download_url = 'https://github.com/piercefreeman/GoFetch/tarball/0.1',
     keywords = ['database'],
     install_requires=[
-          'sqlite',
+          'sqlite3',
     ],
  )
