@@ -10,5 +10,8 @@ setup(name='gofetch',
     author_email='pierce@piercefreeman.net',
     url='https://github.com/piercefreeman/GoFetch',
     download_url = 'https://github.com/piercefreeman/GoFetch/tarball/0.1',
-    keywords = ['database', 'sqlite']
+    keywords = ['database'],
+    install_requires=[
+          'sqlite',
+    ],
  )
