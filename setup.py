@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name='gofetch',
-    packages=['gofetch', 'sqlite'],
+    packages=['gofetch'],
     version='0.1',
     description='A lightweight database layer for Python',
     author='Pierce Freeman',
