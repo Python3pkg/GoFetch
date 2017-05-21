@@ -54,7 +54,7 @@ class Database:
             if params is not None: self.c.execute(query,params)
             else: self.c.execute(query)
         except Exception as e:
-            print "Query failed:", query
+            print("Query failed:", query)
             raise e
 
         # we should commit any changes that modified the database unless explicitly

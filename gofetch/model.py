@@ -1,4 +1,4 @@
-from database import Database
+from .database import Database
 
 class Types(object):
     integer = "INTEGER" # integer

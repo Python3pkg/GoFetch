@@ -20,4 +20,4 @@ myDog.save()
 # We're pulling it fresh from the database now
 foundDog = Dog.findOne({name:"Scooby-Doo"})
 
-print foundDog.owner
+print(foundDog.owner)
